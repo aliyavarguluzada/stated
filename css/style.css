@@ -1,0 +1,144 @@
+/* defaults */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* end defaults */
+
+
+/* Header */
+body,
+html {
+    height: 100%;
+}
+
+#main-header {
+    background-image: url(/images/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+/* #main-header:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(52, 58, 64, 0.9);
+    opacity: 1%;
+} */
+
+.t1 a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 100px;
+
+}
+
+.t2 li:first-child a {
+    color: #fff;
+}
+
+.t2 a {
+    color: #30353B;
+
+}
+
+.t2 a:hover {
+    color: #fff;
+}
+
+
+#top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    height: 12vh;
+}
+
+.t2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t2 li {
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+#center-row {
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 25%; */
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+}
+#overlay ::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(52, 58, 64, 0.9);
+}
+/* end Header */
+/* How it works */
+#how {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+.how-it-works {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #F69314;
+}
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+#main h3 {
+    margin: 20px 0px;
+}
+#main i {
+    font-size: 30px;
+}
+.how-content {
+   
+
+}
+/* End How it works */
+.row1 h2 {
+    text-align: center;
+}
